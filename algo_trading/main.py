@@ -9,3 +9,5 @@ import yfinance as yf
 import pandas_ta
 import warnings
 warnings.filterwarnings('ignore')
+
+sp500 = pd.read_html('https://en.wikipedia.org/wiki/List_of_S&P_500_companies')
